@@ -43,7 +43,7 @@ public class RegisterFragment extends Fragment {
         });
 
         btnRegister.setOnClickListener(v -> {
-            register();
+            Toast.makeText(getActivity(), "Anda sudah berada di halaman Register!!!", Toast.LENGTH_SHORT).show();
         });
 
         btnLogin.setOnClickListener(v -> {

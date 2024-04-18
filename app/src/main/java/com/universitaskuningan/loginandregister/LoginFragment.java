@@ -40,7 +40,7 @@ public class LoginFragment extends Fragment {
         });
 
         btnLogin.setOnClickListener(v -> {
-            login();
+            Toast.makeText(getActivity(), "Anda sudah berada di halaman Login!!!", Toast.LENGTH_SHORT).show();
         });
 
         btnRegister.setOnClickListener(v -> {
